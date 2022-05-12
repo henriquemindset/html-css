@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div#c1 {
+    background-color: lightgray;
+    display: inline-block;
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+div > div#c1 {
+    display: none;
+}
+
+div:hover > div#c1 {
+    display: inline-block;
+}
+
+div#c1:hover {
+    background-color: limegreen;
+}
